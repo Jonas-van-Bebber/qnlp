@@ -1,0 +1,16 @@
+Notizen zum Skript q-quantum-model.py:
+
+Sätze -> werden umgewandelt in QCircuits -> werden PennyLane-Model hinzugefügt -> Model wird mit PytorchTrainer trainiert -> Klassifizierung von Eingabesätzen
+ 
+>> Sätze aus train_data, test_data und dev_data werden nach Training korrekt zugeordnet
+>> Unbekannte Worte führen zu Fehler
+>> Unvollständige Sätze führen zu Fehler
+>> Einzelne bekannte Nomen führen nicht zu Fehler, bekannte Verben schon
+>> Eingabe von bekanntem Verb+Objekt führt zur Ausgabe von 4 Werten, statt 2 Werten
+
+TODO:
+>> Ausgewogenheit in Trainingsdaten prüfen / anpassen 
+>> Größeres Dictionary testen
+>> Genauer verstehen, wie QCircuits aufgebaut werden, wo Limitationen liegen
+
+Idee für Use Case: IT-Tickets oder Kundenbewertungs-Texte analysieren lassen und mit QC passende Kategorie zuordnen lassen 

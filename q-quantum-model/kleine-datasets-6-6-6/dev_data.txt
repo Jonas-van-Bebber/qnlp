@@ -1,0 +1,6 @@
+0  skillful person prepares application .
+1  man prepares tasty meal .
+1  man prepares tasty sauce .
+1  person bakes tasty meal .
+0  man prepares useful program .
+0  man runs program .

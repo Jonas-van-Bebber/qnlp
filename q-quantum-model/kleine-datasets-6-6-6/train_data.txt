@@ -1,0 +1,6 @@
+1  a skillful man prepares sauce .
+1  skillful man bakes dinner .
+1  woman cooks tasty meal .
+1  man prepares meal .
+0  skillful woman debugs program .
+1  woman prepares tasty meal .
